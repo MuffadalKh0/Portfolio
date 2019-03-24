@@ -7,28 +7,36 @@ class Projects extends Component {
     this.state = {
       myProjects : [
         {
-          name: "Tribute Project",
-          link: "https://codepen.io/Mufaddal/pen/jewPMw/"
+          name: "Awesome Calculator Project",
+          link: "https://awesomecalculator2.firebaseapp.com/"
+        },
+        {
+          name: "General Mathametics Project",
+          link: "https://webassignmentt.firebaseapp.com/"
+        },
+        {
+          name: "Quiz Project",
+          link: "https://quiz-javascript.firebaseapp.com/"
         },
         {
           name: "Survey Project",
           link: "https://codepen.io/Mufaddal/pen/Xxgmjv"
         },
         {
-          name: "Product Page Project",
-          link: "https://codepen.io/Mufaddal/pen/EdPJog"
-        },
-        {
           name: "Document Project",
           link: "https://codepen.io/Mufaddal/pen/OBNKOZ"
         },
         {
-          name: "Title",
-          link: ""
+          name: "Classy Clock",
+          link: "https://classy-clock.firebaseapp.com/"
         },
         {
-          name: "Title",
-          link: ""
+          name: "Product Page Project",
+          link: "https://codepen.io/Mufaddal/pen/EdPJog"
+        },
+        {
+          name: "Tribute Project",
+          link: "https://codepen.io/Mufaddal/pen/jewPMw/"
         }
       ]
     }

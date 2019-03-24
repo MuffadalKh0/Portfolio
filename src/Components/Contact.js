@@ -8,6 +8,7 @@ class Contact extends Component {
         <div className="socials">
           <li>Number: 01234567890</li>
           <li>Email: mufaddalkhozema53@gmail.com</li>
+          <li>Github: <a href="https://github.com/MuffadalKh0" target="_blank">MufaddalKh0</a></li>
           <li>Twitter: <a href="https://twitter.com/KhozemaMufaddal" target="_blank">@KhozemaMufaddal</a></li>
         </div>
       </div>
