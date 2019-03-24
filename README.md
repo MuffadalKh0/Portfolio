@@ -1,3 +1,23 @@
+## Here's my Story for this "Application"
+
+# You can skip this if want ;)
+
+
+## My Long Story on how this came into being
+Okay this was in 2018. I was learning Javascript from Sir. Muhammad Ali Mughal in a Bohra Community program. He recommended us to practice coding from this site called [FreeCodeCamp](https://www.freecodecamp.org/) (he also promised rewards for anyone who did :). The practices were divided into groups that had sub-groups i.e there was a frontend group that contianed sub-groups like HTML, CSS, etc. So at the end of the frontend group their was a sub-group called "Responsive Web Design Projects" that had creative projects that incapsulated everything that you learned in the group, it was like a final battle where you had to prove that you're worthy for a certificate (at the complition of a group, you got an certificate). So then one of these projects included making a "Portfolio".
+
+One thing to note is that i took these little projects very seriously and gave them my up most creative time. I completed these projects and got my certificate for the "Responsive Web Design Certification" that took 300 hours. I was happy and this was the end of the story of that time but as you will see these little projects came in handy when i learned a new web technology called "React".
+
+So react, this was in January 2019. I was learning React form [Sir. Yousuf Qutbuddin](https://github.com/uqutub) in the same program. The program unfortunately ended for many reasons. We were left on learning react on our own and i did. I tried three times and i failed in every single attempt. I couldn't continue. Every bit of enthusiasm had ended and board exams were on the corner. 
+
+I still tried anyway, at my fourth try i perfectly knew what i wanted to do and how i wanted to do it. I gave it my whole day and everything seemed to work. At the end of the day i was left with a fully working React Application using my old code. I gave it another day to refine my code and hosted it to GitHub!
+
+So what did we learn?
+*Play attention to little things
+*Don't go to react with a empty mind
+*Don't give up
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
