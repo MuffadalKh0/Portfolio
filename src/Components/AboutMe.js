@@ -4,7 +4,7 @@ import Me from '../Images/Me.jpg';
 class AboutMe extends Component {
   render() {
     return (
-        <div className="about-me sec" id="about-me">
+        <div className="about-me sec">
             <img className="me-img" src={Me} alt="Image here!" />
             <div className="me-info">
                 <h2 class="title">ABOUT ME</h2>

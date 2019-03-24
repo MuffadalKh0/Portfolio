@@ -15,9 +15,13 @@ class App extends Component {
         <OAANav />
         <div className="contianer">
           <Header />
+          <hr id="about-me" />
           <AboutMe />
+          <hr id="projects" />
           <Projects />
+          <hr id="socials" />
           <Contact />
+          <hr />
         </div>
         <Footer />
       </div>

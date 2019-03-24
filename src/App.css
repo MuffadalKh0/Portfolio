@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
 
+:root {
+  --default-color : #393D3F;
+  --default-background-color :#F7F4F3;
+  --default-white-color: #F7F4F3;
+}
+
 /* Prefix start */
 * {margin: 0; padding: 0;}
 
 body {
-  color: #393D3F;
-  background: #F7F4F3; 
+  color: var(--default-color);
+  background: var(--default-background-color); 
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.7vw; 
   width: 100%;
@@ -14,23 +20,41 @@ body {
 li {list-style: none;}
 h1 {font-size: 6vw;}
 h2 {font-size: 4vw;}
-.sec {margin-bottom: 20%;}
+.sec {margin: 10% 0;}
 .title {font-size: 5vw;}
 .center {text-align: center;}
 
 p {
-  font-size: 2.5vw;
+  font-size: 2.38vw;
   opacity: 0.8;
   line-height: 1.2em;
 }
 
 a {
-  color: #090026;
+  color: #08011f;
   text-decoration: none;
 }
-a:active {color: #1a0068;}
-a:visited {color: #090026;}
 a:hover {color: #1a0068;}
+
+/* Wasn't Made By Me */
+hr {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
 /* Prefix end */
 
 nav {
@@ -50,12 +74,11 @@ nav {
 
 .header {
   width: 78%;
-  margin: auto;
   padding: 3.8%;
-  margin-top: 5%;
-  color: #F7F4F3;
-  margin-bottom: 20%;
+  position: relative;
   box-sizing: border-box;
+  margin: 5% auto 10% auto;
+  color: var(--default-white-color);
   background: url('./Images/GrenSax.png');
 }
 
@@ -78,7 +101,13 @@ nav {
   border: 8px solid;
   float: left;
   filter: grayscale(0.5);
+  animation: floating 6s infinite;
 }
+
+  @keyframes floating {
+    50% {transform: translateY(5%);}
+    100% {transform: translateY(0px);}
+  }
 
 .about-me {
   padding: 0% 10%;
@@ -116,6 +145,7 @@ nav {
 }
 
 footer {
+  margin-top: 10%;
   background: #191919;
   padding: 50px;
 }
@@ -129,7 +159,7 @@ footer h3 {
 }
 
 #footer-content {
-  color: white;
+  color: var(--default-white-color);
   opacity: 0.8;
   text-align: center;
   font-size: 15px;
