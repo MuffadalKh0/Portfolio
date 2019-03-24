@@ -1,6 +1,6 @@
 ## Here's my Story for this "Application"
 
-# You can skip this if want ;)
+You can skip this if want ;)
 
 
 ## My Long Story on how this came into being
