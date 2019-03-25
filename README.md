@@ -1,5 +1,5 @@
 ## Here's a deployed version 
-[https://mufaddal-portfolio.firebaseapp.com/](https://mufaddal-portfolio.firebaseapp.com/)
+https://mufaddal-portfolio.firebaseapp.com/
 
 
 ## Here's my Story for this "Application"
