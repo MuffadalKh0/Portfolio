@@ -1,3 +1,7 @@
+## Here's a deployed version 
+[https://mufaddal-portfolio.firebaseapp.com/](https://mufaddal-portfolio.firebaseapp.com/)
+
+
 ## Here's my Story for this "Application"
 
 You can skip this if want ;)
@@ -16,6 +20,7 @@ So what did we learn?<br>
 *Play attention to little things<br>
 *Don't go to react with a empty mind<br>
 *Don't give up<br>
+*Try Again and Again<br>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
