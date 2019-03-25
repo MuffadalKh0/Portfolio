@@ -16,7 +16,7 @@ So react, this was in January 2019. I was learning React form [Sir. Yousuf Qutbu
 
 I still tried anyway, at my fourth try i perfectly knew what i wanted to do and how i wanted to do it. I gave it my whole day and everything seemed to work. At the end of the day i was left with a fully working React Application using my old code. I gave it another day to refine my code and hosted it to GitHub!
 
-So what did we learn?<br>
+### So what did we learn?<br>
 #### *Play attention to little things<br>
 #### *Don't go to react with a empty mind<br>
 #### *Don't give up<br>
