@@ -20,11 +20,13 @@ class Projects extends Component {
         },
         {
           name: "Survey Project",
-          link: "https://codepen.io/Mufaddal/pen/Xxgmjv"
+          link: "https://codepen.io/Mufaddal/pen/Xxgmjv",
+          on: "Codepen"
         },
         {
           name: "Document Project",
-          link: "https://codepen.io/Mufaddal/pen/OBNKOZ"
+          link: "https://codepen.io/Mufaddal/pen/OBNKOZ",
+          on: "Codepen"
         },
         {
           name: "Classy Clock",
@@ -32,11 +34,13 @@ class Projects extends Component {
         },
         {
           name: "Product Page Project",
-          link: "https://codepen.io/Mufaddal/pen/EdPJog"
+          link: "https://codepen.io/Mufaddal/pen/EdPJog",
+          on: "Codepen"
         },
         {
           name: "Tribute Project",
-          link: "https://codepen.io/Mufaddal/pen/jewPMw/"
+          link: "https://codepen.io/Mufaddal/pen/jewPMw/",
+          on: "Codepen"
         }
       ]
     }
@@ -50,7 +54,7 @@ class Projects extends Component {
             this.state.myProjects.map(
               (proj) => {
                 return (
-                  <Project projectName={proj.name} link={proj.link} />
+                  <Project projectName={proj.name} link={proj.link} on={proj.on} />
                 )
               }
             )

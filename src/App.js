@@ -6,7 +6,6 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import './App.css';
-import Project from './Components/MiniComponents/Project';
 
 class App extends Component {
   render() {
